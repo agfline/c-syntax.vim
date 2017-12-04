@@ -254,7 +254,7 @@ syn keyword cDefined defined contained containedin=cDefine
 hi def link cDefined cDefine
 
 " Constants
-syn match cDefined "\<[A-Z][A-Za-z0-9_]*\>" 
+syn match cDefined "\<[A-Z][A-Z0-9_]*\>" 
 hi def link cDefined cDefine
 
 " Functions
