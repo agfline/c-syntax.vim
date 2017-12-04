@@ -253,16 +253,16 @@ syn match cOperator	"[][]"
 syn keyword cDefined defined contained containedin=cDefine
 hi def link cDefined cDefine
 
+" Constants
+syn match cDefined "\<[A-Z][A-Za-z0-9_]*\>" 
+hi def link cDefined cDefine
+
 " Functions
 syn match cUserFunction "\<\h\w*\>\(\s\|\n\)*("me=e-1 contains=cType,cDelimiter,cDefine
 syn match cUserFunctionPointer "(\s*\*\s*\h\w*\s*)\(\s\|\n\)*(" contains=cDelimiter,cOperator
 
 hi def link cUserFunction cFunction
 hi def link cUserFunctionPointer cFunction
-
-" Constants
-syn match cDefined "\<[A-Z][A-Za-z0-9_]*\>" 
-hi def link cDefined cDefine
 
 " Delimiters
 syn match cDelimiter    "[();\\]"
