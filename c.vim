@@ -3,7 +3,7 @@
 " Maintainer:	Mikhail Wolfson <mywolfson@gmail.com>
 " URL: http://web.mit.edu/wolfsonm
 " Last Change:	2017 Dec. 4
-" Version: 0.4
+" Version: 0.5
 "
 " Changelog:
 "   0.5 - add support for constants -- github.com/agfline
